@@ -1,0 +1,6 @@
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingTestLoadBalancer\DrappingTestLoadBalancer\bin\Debug\DrappingTestLoadBalancer.exe.config
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingTestLoadBalancer\DrappingTestLoadBalancer\bin\Debug\DrappingTestLoadBalancer.exe
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingTestLoadBalancer\DrappingTestLoadBalancer\bin\Debug\DrappingTestLoadBalancer.pdb
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingTestLoadBalancer\DrappingTestLoadBalancer\obj\Debug\DrappingTestLoadBalancer.csprojResolveAssemblyReference.cache
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingTestLoadBalancer\DrappingTestLoadBalancer\obj\Debug\DrappingTestLoadBalancer.exe
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingTestLoadBalancer\DrappingTestLoadBalancer\obj\Debug\DrappingTestLoadBalancer.pdb

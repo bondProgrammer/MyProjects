@@ -1,0 +1,5 @@
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingServiceRoutine\DrappingServiceRoutine\obj\Debug\DrappingServiceRoutine.csprojResolveAssemblyReference.cache
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingServiceRoutine\DrappingServiceRoutine\bin\DrappingServiceRoutine.dll
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingServiceRoutine\DrappingServiceRoutine\bin\DrappingServiceRoutine.pdb
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingServiceRoutine\DrappingServiceRoutine\obj\Debug\DrappingServiceRoutine.dll
+c:\users\pavan.k.tds\documents\visual studio 2012\Projects\DrappingServiceRoutine\DrappingServiceRoutine\obj\Debug\DrappingServiceRoutine.pdb

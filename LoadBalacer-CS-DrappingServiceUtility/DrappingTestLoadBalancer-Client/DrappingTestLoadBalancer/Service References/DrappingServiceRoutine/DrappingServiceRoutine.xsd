@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/DrappingServiceRoutine.RequestDto" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DrappingServiceRoutine.RequestDto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50304/DrappingServiceRoutine.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="IsFileExistRequestDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DestinationPath" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ImageName" nillable="true" type="q1:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IsFileExistRequestDto" nillable="true" type="tns:IsFileExistRequestDto" />
+  <xs:complexType name="DrapImageRequestDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DrappedImageByte" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="SourcePath" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DrapImageRequestDto" nillable="true" type="tns:DrapImageRequestDto" />
+  <xs:complexType name="SaveFileRequestDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DrappedImageByte" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="SourcePath" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SaveFileRequestDto" nillable="true" type="tns:SaveFileRequestDto" />
+</xs:schema>

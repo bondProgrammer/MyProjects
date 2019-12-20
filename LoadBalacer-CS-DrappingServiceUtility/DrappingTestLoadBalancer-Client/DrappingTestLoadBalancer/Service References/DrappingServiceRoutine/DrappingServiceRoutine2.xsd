@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50304/DrappingServiceRoutine.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DrappingServiceRoutine.RequestDto" />
+  <xs:import schemaLocation="http://localhost:50304/DrappingServiceRoutine.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/DrappingServiceRoutine.ResponseDto" />
+  <xs:element name="IsFileExist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/DrappingServiceRoutine.RequestDto" minOccurs="0" name="isfileexistdto" nillable="true" type="q1:IsFileExistRequestDto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsFileExistResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/DrappingServiceRoutine.ResponseDto" minOccurs="0" name="IsFileExistResult" nillable="true" type="q2:IsFileExistResponseDto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DrapImage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DrappingServiceRoutine.RequestDto" minOccurs="0" name="drapimageresponsedto" nillable="true" type="q3:DrapImageRequestDto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DrapImageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/DrappingServiceRoutine.ResponseDto" minOccurs="0" name="DrapImageResult" nillable="true" type="q4:DrapImageResponseDto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveImage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/DrappingServiceRoutine.RequestDto" minOccurs="0" name="savefilerequestdto" nillable="true" type="q5:SaveFileRequestDto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveImageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/DrappingServiceRoutine.ResponseDto" minOccurs="0" name="SaveImageResult" nillable="true" type="q6:SaveFileResponceDto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
